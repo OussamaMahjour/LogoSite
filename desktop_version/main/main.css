@@ -78,14 +78,14 @@ z-index: 2;}
 
 .open{
     padding-left: 2rem;
-    width: 800px;
+    width: 200px;
     border-left:1px #D5CEA3 solid ;
 }
 
 
 .dropdown_menu li{
-    width: 700px;
-    padding: 3rem;
+    width: 100px;
+    
     display: flex;
     align-items: left;
     justify-content: left;
@@ -100,7 +100,7 @@ z-index: 2;}
     
 }
 .dropdown_menu .menu{
-    border-bottom: 2px #D5CEA3 solid;
+    border-bottom: 1px #D5CEA3 solid;
 }
 .dropdown_menu a:hover{
     color:#1A120B;
@@ -168,27 +168,13 @@ main .suggestions{
     left: 70%;
     border-left: 1px solid #3C2A21;
 }
-@media(max-width:1080px){
-    a{
-        font-size: 3rem;
-    }
-    header{
-box-shadow: 0 10px 10px #00000088;
-padding: 0 100px;
+@media(max-width:500px){
+    
 
-    }
-
-    .navbar{
-        height: 200px;
-    }
-    .navbar .logo a{
-        font-size: 3rem;
-        letter-spacing: 10px;
-    }
+    
+    
     .navbar .links{display: none;}
-    .navbar .toggle_btn{
-        font-size: 4rem;
-    }
+    
     .navbar .toggle_btn,.dropdown_menu{
         display: block;
 
@@ -199,25 +185,13 @@ padding: 0 100px;
     }
     main .storys{
         width: 100%;
-        top:200px ;
-        height: 200px;
+        
         position: fixed;
     }
-    main .storys .create_story {
-        padding: 10px;
-        width: 400px;
-        
-      
-    }
+   
     
-    main .storys .mini_div{
-        box-shadow: 0 10px 2px -4px  gray;
-    }
-    main .storys .mini_div .create_story i{
-        font-size: 10rem;
-        width: 200px;
-        height: 100%;
-    }
+   
+    
     
     main .posts{
         width: 100%;

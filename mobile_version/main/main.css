@@ -1,0 +1,126 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+body{
+    height: 100vh;
+    background-color: #E5E5CB;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#D5CEA3;
+    
+}
+.links a:hover{
+    color: #3C2A21;
+}
+header{top: 0;
+    position:fixed;
+    width: 100%;
+padding :0 2rem;
+background:#1A120B;
+box-shadow: 0 5px 10px #00000088;
+z-index: 2;}
+.navbar{
+    width: 100%;
+    height: 200px;
+    max-width: 100vw;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+
+}
+.navbar .logo::first-letter{
+    background-color: #D5CEA3;
+    color:#1A120B;
+}
+
+
+
+
+/*drop down menu*/
+.dropdown_menu{
+    position: fixed;
+  
+    top: 90%;
+    
+    
+    height: 10%;
+    width:100%;
+    background-color: #1A120B;
+    display: flex;
+    
+    z-index: 3;
+    align-items: center;
+    justify-content: space-around;
+}
+.dropdown_menu .links{
+    display: flex;
+  
+    gap: 13rem;
+}
+
+
+.dropdown_menu .links li i  {
+    font-size: 4rem;
+}
+
+
+
+
+/*RESPINSIVE */
+
+
+
+/*the core*/
+
+
+main{
+    width: 100%;
+    height: 100vh;
+   
+    
+}
+main .storys{
+    width: 100%;
+    height: 200px;
+    
+    display: inline-flex;
+    top: 200px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+main .storys .mini_div{
+    width: 90%;
+    height: 100%;
+    border-bottom:1px #3C2A21 solid;
+    box-shadow: 0 10px 2px -4px  gray;
+}
+
+main .storys .mini_div .create_story i {
+    font-size: 10rem;
+    margin: 10px 10px;
+    
+}
+main .posts{
+    width: 100%;
+    height: 100vh;
+    
+    display: inline-flex;
+    margin-top: 400px}
