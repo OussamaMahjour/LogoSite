@@ -1,0 +1,6 @@
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    window.location.href = "https://oussamamahjour.github.io/";
+    window.location.replace("https://oussamamahjour.github.io/");
+} else {
+    
+}
