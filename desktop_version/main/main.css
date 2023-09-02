@@ -72,7 +72,7 @@ z-index: 2;}
     background-color: #3C2A21;
     display: none;
     transition: width 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    overflow: hidden;
+  /*  overflow: hidden;*/
     z-index: 3;
 }
 

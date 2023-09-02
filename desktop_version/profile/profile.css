@@ -1,0 +1,87 @@
+main{
+    display: flex;
+}
+main .profile{
+    width: 70%;
+    height: 250px;
+    
+    display: inline-flex;
+    top: 60px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .profile .top{
+    display: flex;
+   height: 100%;
+    width: 100%;
+    
+    
+    justify-content: center;
+}
+main .profile .top .center{
+    display: flex;
+    height: 100%;
+    width: 80%;
+   
+    align-items: center;
+    border-bottom: 1px solid #3C2A21;
+    
+
+
+}
+main .profile .top .center img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border: 1px solid #3C2A21 ;
+}
+main .profile .top .center .userprofile{
+    padding-top: 5%;
+     width: 100%;
+     
+     
+    height: 100%;
+
+ }
+main .profile .top .center .userprofile h2{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    height: 20%;
+    width: 100%;
+    display: flex;
+
+  
+}
+main .profile .top .center .userprofile .userinfo{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    align-items: CENTER;
+    justify-content: center;
+    gap: 2rem;
+   
+    
+}
+main .content{
+    position: relative;
+    top:310px;
+    width: 70%;
+    height: 58vh;
+    background-color: red;
+}
+@media(max-width:822px){
+    main .suggestions{
+        display: none;
+    }
+    main .profile{
+        width: 100%;
+       
+    }
+    main .content{
+        width: 100%;
+    }
+}

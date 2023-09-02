@@ -1,0 +1,36 @@
+.frame input{
+    height: 3rem;
+    background-color: beige;
+    border: 1px solid #1A120B;
+    margin: 1rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.frame{
+    
+    padding-left: 1.5%;
+    justify-content: center;
+}
+
+
+.First_name,.Last_name{
+    width: 40%;
+  
+}
+.password,.email{
+    width :89%;
+}
+.frame .sign_up{
+    width: 30%;
+    padding-left: 0;
+    margin-left: 30%;
+    color: beige;
+    background-color: #1A120B;
+}
+.frame .sign_up:hover{
+    color: #1A120B;
+    background-color:beige ;
+    border: 1px #1A120B solid;
+    cursor: pointer;
+}
