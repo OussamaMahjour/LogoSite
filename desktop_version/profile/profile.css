@@ -67,11 +67,169 @@ main .profile .top .center .userprofile .userinfo{
     
 }
 main .content{
-    position: relative;
+    position: fixed;
     top:310px;
     width: 70%;
-    height: 58vh;
-    background-color: red;
+    height: 65vh;
+   
+}
+main .content .ongles{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 2rem;
+}
+main .content .ongles .ongles_title{
+    display: flex;
+    justify-content: center;
+    width: 6%;
+   border-top: 2px solid #3C2A21;
+   font-weight: bold;
+    cursor:default;
+}
+main .content .ongles .desactive{
+   border-top: 0px solid white;
+   font-weight: lighter;
+}
+.content_container{
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.content_container .content_post{
+    height: 100%;
+    width: 90%;
+   overflow-y:scroll;
+  
+   justify-content: center;
+   
+   -ms-overflow-style: none; 
+    align-items: center;
+   
+}
+.content_container .content_post .posting{
+    display: inline-flex;
+    justify-content: center;
+    height: 293px;
+    width: 293px;
+   
+    margin: 0.1rem;
+    overflow: hidden;
+}
+.content_container .content_post .posting::-webkit-scrollbar {
+    width: 1px;
+}
+.full_post{
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000000aa;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.full_post .post_contener{
+    height: 80%;
+    width: 60%;
+    background-color: beige;
+    border: #3C2A21 1px solid;
+    display: flex;
+}
+.full_post .post_contener .view{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.full_post .post_contener .view img{
+    width: 100%;
+
+}
+.full_post .post_contener .reaction{
+    width: 50%;
+    height: 100%;
+    
+    
+    color: #aca998;
+}
+.full_post .post_contener .reaction img{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    position: absolute;
+    top:5.2rem;
+}
+.full_post .post_contener .reaction h3{
+    margin-left: 4rem;
+}
+.full_post .post_contener .reaction i {
+    
+    font-size: 2rem;
+    margin-left: 94%;
+    height: 3%;
+    width: 2rem;
+
+}
+.full_post .post_contener .reaction i:hover {
+color: #694d3e;
+}
+.full_post .post_contener .reaction .comments{
+    width: 100%;
+    height: 68%;
+     
+    border-top: 1px solid #3C2A21 ;
+}
+.full_post .post_contener .reaction .likes{
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid #3C2A21 ;
+    color: #3C2A21;
+ padding-left: 1rem;  
+    
+    
+}
+.full_post .post_contener .reaction .likes i {
+   
+    margin-left: 1%;
+    height: 2rem;
+    width: 2rem;
+    left: 0;
+    transition: 0.2s ease;
+   font-size: 2rem;
+}
+.full_post .post_contener .reaction .ajouter_comment{
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid #3C2A21 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.full_post .post_contener .reaction .ajouter_comment input{
+    
+    height: 70%;
+    background-color: #aca998;
+    
+    border-radius: 10px;
+    border: 1px solid #3C2A21;
+
+}
+.full_post .post_contener .reaction .ajouter_comment input:first-child{
+    width: 80%;
+   padding-left: 1rem;
 }
 @media(max-width:822px){
     main .suggestions{

@@ -124,8 +124,8 @@ main .storys{
     height: 100px;
     
     display: inline-flex;
-    top: 60px;
-    position: fixed;
+    margin-top: 60px;
+   
     justify-content: center;
     align-items: center;
     
@@ -154,7 +154,7 @@ main .posts{
     height: 100vh;
     
     display: inline-flex;
-    margin-top: 160px;
+    justify-content: center;
 }
 main .suggestions{
     width: 30%;
@@ -167,6 +167,19 @@ main .suggestions{
     top: 60px;
     left: 70%;
     border-left: 1px solid #3C2A21;
+}
+main .posts .scorll_post{
+    margin-top: 5%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+   
+}
+main .posts .scorll_post .post{
+    width: 100%;
+    height: 40rem;
+    
+    border-bottom: 1px solid #3C2A21;
 }
 @media(max-width:500px){
     
